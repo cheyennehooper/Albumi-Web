@@ -1,0 +1,29 @@
+.login-wrapper {
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    min-height: 60vh; /* Full viewport height */
+}
+
+.login-container{
+    background-color: red;
+    height: 100%;
+    width: 25%;
+    padding: 20px;
+}
+.log-textbox-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;              /* Space between buttons */
+    align-items: center;    /* Center buttons horizontally */
+}
+
+.log-button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;              /* Space between buttons */
+    align-items: center;    /* Center buttons horizontally */
+    margin-top: 20px;
+}

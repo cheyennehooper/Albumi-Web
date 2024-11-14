@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6cap;               /* Adjust height as needed */
+    background-color: #333;      /* Background color */
+    color: #fff;                 /* Text color */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;             /* Adds padding to the left and right */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1000;               /* Ensure it's above other elements */
+    
+  }
+  /*albumi title*/
+  .navbar-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /*stuff doesnt hide behind nav bar at top*/
+  body {
+    padding-top: 30px;
+  }
