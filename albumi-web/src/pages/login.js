@@ -19,7 +19,7 @@ function Login(){
                 </div>
                 <div className="log-button-container">
                 {/*heres how i can use my button bc i set props in my component*/}
-                <Button text="back to home" onClick={() => navigate('/')} />
+                <Button text="no account? signup" onClick={() => navigate('/signup')} />
                 </div>
             </div>
         </div>

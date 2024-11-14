@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/button";
-import TextBox from "../components/textbox";
 import '../styles/home.css'
 
 

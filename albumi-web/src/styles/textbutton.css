@@ -1,0 +1,12 @@
+/* textbutton.css */
+.text-button {
+    cursor: pointer;
+    color: white; /* Text color for the button */
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .text-button:hover {
+    color: #888888; /* Darker color on hover */
+  }
+  

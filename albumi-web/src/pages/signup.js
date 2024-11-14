@@ -20,7 +20,6 @@ function Signup(){
                 </div>
                 <div className="su-button-container">
                 {/*heres how i can use my button bc i set props in my component*/}
-                <Button text="back to home" onClick={() => navigate('/')} />
                 <Button text="have an account? login" onClick={() => navigate('/login')} />
                 </div>
             </div>
